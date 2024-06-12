@@ -11,7 +11,7 @@ export async function generateMetadata({ params }: Params) {
 export default function Page({ params }: Params) {
   return <>
     <h1>Slug: {params.slug}</h1>
-    <p>Duy Anh Pham</p>
+    <p>DuyAnhPham</p>
     <p>Welcome to my demo</p>
   </>;
 }
